@@ -58,7 +58,7 @@ const checkwinner=()=>{
     }
 };
 const gamedraw=()=>{
-    msg.innerText= `game is Dwar`;
+    msg.innerText= `game is Draw`;
     msgcontainer.classList.remove("hide") 
     disablebtns();
 }
@@ -83,3 +83,4 @@ const enablebtns = () =>{
 }
 resetbtn.addEventListener("click",resetbuttons);
 newGameBtn.addEventListener("click",resetbuttons);
+
